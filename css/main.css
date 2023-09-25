@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: aqua;
+}
+
+a:hover,
+a:active {
+    color: gray;
+}
+
+#navbar {
+    padding: 8px;
+    width: auto;
+    background-color: rgb(0, 63, 8);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#navbar > a {
+    margin-right: 5px;
+}
+
+#content {
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: aliceblue;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 80px;
+}
+
+.catalogo > img {
+    width: 70px;
+}
+
+.catalogo > span {
+    width: auto;
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: bold;    
+}
+
+#sobreNos {
+    height: 200px;
+    width: 100%;    
+}
+
+#bebidas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+}
+
+#petiscos {
+    height: 200px;
+    width: 100%;    
+}
+
+#programacao {
+    height: 200px;
+    width: 100%;    
+}
+
+#contato {
+    height: 200px;
+    width: 100%;    
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 100%;
+  }
